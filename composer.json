@@ -1,0 +1,14 @@
+{
+  "name": "drupal/commerce_checkout_extra_field",
+  "type": "drupal-module",
+  "description": "Adds extra field to orders on checkout flow",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/commerce_checkout_extra_field",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/commerce_checkout_extra_field",
+    "source": "http://cgit.drupalcode.org/commerce_checkout_extra_field"
+  },
+  "require": { }
+}

@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains commerce_checkout_extra_field.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function commerce_checkout_extra_field_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the commerce_checkout_extra_field module.
+    case 'help.page.commerce_checkout_extra_field':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Adds extra field to orders on checkout flow') . '</p>';
+      return $output;
+
+    default:
+  }
+}
